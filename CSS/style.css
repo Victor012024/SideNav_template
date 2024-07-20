@@ -1,0 +1,86 @@
+body {
+    background: url(blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sidenav {
+    height: 90%;
+    width: 0;
+    background-color: rgb(50, 50, 248);
+    padding-top: 35px;
+    transition: 0.4s;
+    z-index: 1;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    border-radius: 0 12px 12px 0;
+}
+
+ .side-header {
+    margin-left: 20px;
+    margin-top: -30px;
+    color: white;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+}
+
+.side-header p {
+    background-color: red;
+    width: 60px;
+    padding: 5px 5px 8px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 22px;
+    text-shadow: 3px 3px 4px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.side-header h5 {
+    margin-top: -21px;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.side-header h6 {
+    margin-top: -21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidenav a {
+    display: block; 
+    margin: 52px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    padding: 5px;
+}
+.sidenav a:hover  {
+    color: white;
+}
+
+.sidenav .closebtn:hover {
+    text-shadow: 2px 2px 4px black;
+}
+
+i {
+    padding-right: 10px;
+}
+
+.down-nav {
+    border-top: 2px solid white;
+    margin-left: -20px;
+    padding: 0;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 66px;
+    margin-left: 56px;
+}
